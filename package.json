@@ -4,12 +4,28 @@
   "description": "IMAD 2016 course app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "sroy8091",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",
-    "morgan": "^1.7.0"
-  }
+    "morgan": "^1.7.0",
+    "pg": "^6.1.0",
+    "body-parser": "^1.15.2",
+    "express-session": "^1.14.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroy8091/imad-2016-app.git"
+  },
+  "keywords": [
+    "herokuapp"
+  ],
+  "bugs": {
+    "url": "https://github.com/sroy8091/imad-2016-app/issues"
+  },
+  "homepage": "https://github.com/sroy8091/imad-2016-app#readme"
 }
