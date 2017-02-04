@@ -6,15 +6,15 @@ var path = require('path');
 // var bodyParser = require('body-parser');
 // var session = require('express-session');
 
-var pool = new Pool({
-  user: 'sroy8091',
-  password: process.env.DB_PASSWORD,
-  host: 'db.imad.hasura-app.io',
-  database: 'sroy8091',
-  max: 10, // max number of clients in pool
-  idleTimeoutMillis: 1000, // close & remove clients which have been idle > 1 second
-  port: '5432'
-});
+// var pool = new Pool({
+//   user: 'sroy8091',
+//   password: process.env.DB_PASSWORD,
+//   host: 'db.imad.hasura-app.io',
+//   database: 'sroy8091',
+//   max: 10, // max number of clients in pool
+//   idleTimeoutMillis: 1000, // close & remove clients which have been idle > 1 second
+//   port: '5432'
+// });
 
 var app = express();
 app.use(morgan('combined'));
